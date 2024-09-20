@@ -2,26 +2,31 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="kalkulator.MainPage">
-    <Grid RowDefinitions="*,Auto,Auto,Auto,Auto,Auto,Auto"
+    <Grid RowDefinitions="*,Auto,Auto,Auto,Auto,Auto,Auto,Auto"
           ColumnDefinitions="*,*,*"
           Padding="40">
         <Label x:Name="obecnie" BackgroundColor="Gray"  Text="" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>
-        <Label x:Name="wynik" BackgroundColor="Gray"  Text="0" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"/>
-        <Button Text="7" Clicked="OnWybranaLiczba" Grid.Row="2" Grid.Column="0" Margin="5,20,5,0"/>
-        <Button Text="8" Clicked="OnWybranaLiczba" Grid.Row="2" Grid.Column="1" Margin="5,20,5,0"/>
-        <Button Text="9" Clicked="OnWybranaLiczba" Grid.Row="2" Grid.Column="2" Margin="5,20,5,0"/>
-        <Button Text="4" Clicked="OnWybranaLiczba" Grid.Row="3" Grid.Column="0" Margin="5,20,5,0"/>
-        <Button Text="5" Clicked="OnWybranaLiczba" Grid.Row="3" Grid.Column="1" Margin="5,20,5,0"/>
-        <Button Text="6" Clicked="OnWybranaLiczba" Grid.Row="3" Grid.Column="2" Margin="5,20,5,0"/>
-        <Button Text="1" Clicked="OnWybranaLiczba" Grid.Row="4" Grid.Column="0" Margin="5,20,5,0"/>
-        <Button Text="2" Clicked="OnWybranaLiczba" Grid.Row="4" Grid.Column="1" Margin="5,20,5,0"/>
-        <Button Text="3" Clicked="OnWybranaLiczba" Grid.Row="4" Grid.Column="2" Margin="5,20,5,0"/>
-        <Button Text="0" Clicked="OnWybranaLiczba" Grid.Row="5" Grid.Column="1" Margin="5,20,5,0"/>
+        <Label x:Name="wynik" BackgroundColor="Gray"  Text="0" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" FontSize="40"/>
 
-        <Button Text="*" Clicked="OnWybranyOperator" Grid.Row="5" Grid.Column="0" Margin="5,20,5,0" BackgroundColor="LightBlue" TextColor="Black"/>
-        <Button Text="/" Clicked="OnWybranyOperator" Grid.Row="5" Grid.Column="2" Margin="5,20,5,0" BackgroundColor="LightBlue" TextColor="Black"/>
-        <Button Text="+" Clicked="OnWybranyOperator" Grid.Row="6" Grid.Column="0" Margin="5,20,5,0" BackgroundColor="LightBlue" TextColor="Black"/>
-        <Button Text="-" Clicked="OnWybranyOperator" Grid.Row="6" Grid.Column="1" Margin="5,20,5,0" BackgroundColor="LightBlue" TextColor="Black"/>
-        <Button Text="=" Clicked="OnWynik" Grid.Row="6" Grid.Column="2" Margin="5,20,5,0" BackgroundColor="Green"/>
+        <Button Text="C" Grid.Row="2" Grid.Column="0" Clicked="OnClear" Margin="5,20,5,0" BackgroundColor="Red"/>
+        <Button Text="W produkcji" Grid.Row="2" Grid.Column="1" Clicked="OnClear" Margin="5,20,5,0" BackgroundColor="Red"/>
+
+        <Button Text="." Clicked="OnWybranaLiczba" Grid.Row="2" Grid.Column="2"  Margin="5,20,5,0"/>
+        <Button Text="7" Clicked="OnWybranaLiczba" Grid.Row="3" Grid.Column="0" Margin="5,20,5,0"/>
+        <Button Text="8" Clicked="OnWybranaLiczba" Grid.Row="3" Grid.Column="1" Margin="5,20,5,0"/>
+        <Button Text="9" Clicked="OnWybranaLiczba" Grid.Row="3" Grid.Column="2" Margin="5,20,5,0"/>
+        <Button Text="4" Clicked="OnWybranaLiczba" Grid.Row="4" Grid.Column="0" Margin="5,20,5,0"/>
+        <Button Text="5" Clicked="OnWybranaLiczba" Grid.Row="4" Grid.Column="1" Margin="5,20,5,0"/>
+        <Button Text="6" Clicked="OnWybranaLiczba" Grid.Row="4" Grid.Column="2" Margin="5,20,5,0"/>
+        <Button Text="1" Clicked="OnWybranaLiczba" Grid.Row="5" Grid.Column="0" Margin="5,20,5,0"/>
+        <Button Text="2" Clicked="OnWybranaLiczba" Grid.Row="5" Grid.Column="1" Margin="5,20,5,0"/>
+        <Button Text="3" Clicked="OnWybranaLiczba" Grid.Row="5" Grid.Column="2" Margin="5,20,5,0"/>
+        <Button Text="0" Clicked="OnWybranaLiczba" Grid.Row="6" Grid.Column="1" Margin="5,20,5,0"/>
+
+        <Button Text="*" Clicked="OnWybranyOperator" Grid.Row="6" Grid.Column="0" Margin="5,20,5,0" BackgroundColor="LightBlue" TextColor="Black"/>
+        <Button Text="/" Clicked="OnWybranyOperator" Grid.Row="6" Grid.Column="2" Margin="5,20,5,0" BackgroundColor="LightBlue" TextColor="Black"/>
+        <Button Text="+" Clicked="OnWybranyOperator" Grid.Row="7" Grid.Column="0" Margin="5,20,5,0" BackgroundColor="LightBlue" TextColor="Black"/>
+        <Button Text="-" Clicked="OnWybranyOperator" Grid.Row="7" Grid.Column="1" Margin="5,20,5,0" BackgroundColor="LightBlue" TextColor="Black"/>
+        <Button Text="=" Clicked="OnWynik" Grid.Row="7" Grid.Column="2" Margin="5,20,5,0" BackgroundColor="Green"/>
     </Grid>
 </ContentPage>

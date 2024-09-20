@@ -1,1 +1,1 @@
-C:\Users\a4\source\repos\kalkulator\kalkulator\kalkulator\kalkulator.csproj;x64
+C:\Users\disaj\Source\Repos\kalkulator\kalkulator\kalkulator.csproj;x64
