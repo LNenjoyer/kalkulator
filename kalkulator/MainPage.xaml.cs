@@ -33,7 +33,7 @@ namespace kalkulator
                     currentState *= -1;
             }
 
-            if (pressed == "." && decimalFormat != "N2")
+            if (pressed == "," && decimalFormat != "N2")
             {
                 decimalFormat = "N2";
             }
