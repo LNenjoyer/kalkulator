@@ -71,11 +71,15 @@ namespace kalkulator
         {
             if (currentState == 2)
             {
+                double result=0;
                 if (secondNumber == 0)
                     LockNumberValue(wynik.Text);
-
-                double result = Calculator.Calculator.Calculate(firstNumber, secondNumber, mathOperator);
-
+                if(mathOperator=="+"|| mathOperator == "-"|| mathOperator == "*")
+                    result = Calculator.Calculator.Calculate(firstNumber, secondNumber, mathOperator);
+                else if (mathOperator=="/")
+                    {
+                    result=firstNumber/secondNumber;//nie działa, tylko całkowite
+                    }
                 this.obecnie.Text = $"{firstNumber} {mathOperator} {secondNumber}";
 
                 this.wynik.Text = Calculator.DoubleExtensions.ToTrimmedString(result,decimalFormat);

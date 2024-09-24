@@ -32,12 +32,12 @@ public static class DoubleExtensions
     {
         string strValue = target.ToString(decimalFormat);
 
-        if (strValue.Contains(','))
+        if (strValue.Contains('.'))
         {
             strValue = strValue.TrimEnd('0');
 
-            if (strValue.EndsWith(',')) 
-                strValue = strValue.TrimEnd(',');
+            if (strValue.EndsWith('.')) 
+                strValue = strValue.TrimEnd('.');
         }
 
         return strValue;

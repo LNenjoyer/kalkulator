@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\disaj\\Source\\Repos\\kalkulator\\kalkulator\\kalkulator.csproj": {}
+    "C:\\Users\\a4\\Source\\Repos\\kalkulator\\kalkulator\\kalkulator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\disaj\\Source\\Repos\\kalkulator\\kalkulator\\kalkulator.csproj": {
+    "C:\\Users\\a4\\Source\\Repos\\kalkulator\\kalkulator\\kalkulator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\disaj\\Source\\Repos\\kalkulator\\kalkulator\\kalkulator.csproj",
+        "projectUniqueName": "C:\\Users\\a4\\Source\\Repos\\kalkulator\\kalkulator\\kalkulator.csproj",
         "projectName": "kalkulator",
-        "projectPath": "C:\\Users\\disaj\\Source\\Repos\\kalkulator\\kalkulator\\kalkulator.csproj",
-        "packagesPath": "C:\\Users\\disaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\disaj\\Source\\Repos\\kalkulator\\kalkulator\\obj\\",
+        "projectPath": "C:\\Users\\a4\\Source\\Repos\\kalkulator\\kalkulator\\kalkulator.csproj",
+        "packagesPath": "C:\\Users\\a4\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a4\\Source\\Repos\\kalkulator\\kalkulator\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\disaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a4\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,11 +72,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -115,11 +115,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -158,11 +158,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -202,11 +202,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.72, )"
+              "version": "[8.0.82, )"
             }
           },
           "imports": [
